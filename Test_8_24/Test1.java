@@ -1,3 +1,4 @@
+package test_8_24;
 public class Test1 {
     public static void main(String[] args) {
         int[] scores = new int[4];

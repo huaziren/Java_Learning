@@ -1,3 +1,4 @@
+package test_9_4;
 public class Test1 {
     public static void main(String[] args) {
         int m = max(10, 20);

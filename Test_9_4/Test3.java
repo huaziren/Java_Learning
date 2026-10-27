@@ -1,3 +1,4 @@
+package test_9_4;
 class Student {
     String name;
     int age;

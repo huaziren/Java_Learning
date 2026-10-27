@@ -1,7 +1,8 @@
-class Animal {
+package test_9_6;
+class Animal2 {
     private String name;
     
-    Animal(String name) {
+    Animal2(String name) {
         this.name = name;
     }
 
@@ -17,8 +18,8 @@ class Animal {
     }
 }
 
-class Dog extends Animal {
-    Dog(String name) {
+class Dog2 extends Animal2 {
+    Dog2(String name) {
         super(name);
     }
 
@@ -33,7 +34,7 @@ class Dog extends Animal {
 
 public class Test4 {
     public static void main(String[] args) {
-        Dog d = new Dog("旺财");
+        Dog2 d = new Dog2("旺财");
         d.eat();
         d.bark();
     }

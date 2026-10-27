@@ -1,3 +1,4 @@
+package test_9_4;
 public class Test2 {
     public static void main(String[] args) {
         int[] arrs = {5, 3, 8, 1, 9};

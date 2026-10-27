@@ -1,3 +1,4 @@
+package test_8_24;
 public class Test3 {
     public static void main(String[] args) {
         int[] nums = {5, 3, 8, 1, 9};

@@ -1,3 +1,4 @@
+package test_9_6;
 class Animal {
     private String name;
     
@@ -19,7 +20,8 @@ class Animal {
 
 class Dog extends Animal {
     Dog(){
-        S
+        super(); // 调用 Animal 的无参构造方法
+        System.out.println("Dog 的构造方法执行了");
     }
 
     @Override

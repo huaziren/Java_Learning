@@ -1,3 +1,4 @@
+package test_8_21;
 public class Test2 {
     public static void main(String[] args) {
         int a = 10;

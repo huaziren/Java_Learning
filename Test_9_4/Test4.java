@@ -1,9 +1,10 @@
-class Student {
+package test_9_4;
+class Student2 {
     private String name;
     private int age;
     private double score;
 
-    Student(String name, int age, double score) {
+    Student2(String name, int age, double score) {
         this.name = name;
         setAge(age);
         this.score = score;
@@ -30,9 +31,9 @@ class Student {
 
 public class Test4 {
     public static void main(String[] args) {
-        Student s1 = new Student("张三", -5, 92.5);
-        Student s2 = new Student("李四", -20, 89.5);
-        Student s3 = new Student("王五", 18, 95.0);
+        Student2 s1 = new Student2("张三", -5, 92.5);
+        Student2 s2 = new Student2("李四", -20, 89.5);
+        Student2 s3 = new Student2("王五", 18, 95.0);
         s1.introduce();
         s2.introduce();
         s3.introduce();
