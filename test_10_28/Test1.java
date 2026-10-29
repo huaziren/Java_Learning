@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.HashSet;
 
 
-public class Test1 {
+public class test1 {
     public static void main(String[] args) {
         //创建一个装String的空集合
         Set<String> names = new HashSet<>();
